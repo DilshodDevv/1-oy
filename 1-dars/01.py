@@ -7,3 +7,4 @@
 #print(' salom Dilshod men zenbook asus ultra 5 man')
 #bu yirda biz faqatgina bir tirnoqni kurayapmiz savol tug'ilishi mumkun bir tirnoqda bersa bular ekan nega qush
 #
+print(7)
