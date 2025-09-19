@@ -5,9 +5,9 @@ MAVZU : RUYHATLAR BILAN ISHLASH
 MUALLIF : DILSHOD OCHILOV
 """
 #.sort()
-# cars = ['bmw', 'mersades benz', 'volvo', 'geniral motors', 'tesla', 'audi']
-# cars.sort()
-# print(cars)
+#cars = ['bmw', 'mersades benz', 'volvo', 'geniral motors', 'tesla', 'audi']
+#cars.sort()
+#print(cars)
 # cars = ['Bmw', 'mersades benz', 'volvo', 'gm', 'tesla', 'audi']
 # cars.sort()
 # print(cars)

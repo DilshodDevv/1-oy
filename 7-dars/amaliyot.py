@@ -39,3 +39,5 @@ MUALLIF: OCHILOV DILSHOD
 # print(taomlar)
 # print(nonushta)
 #
+ismlar=['Shahzod ,Burhon ,Diyor ']
+print("salom" + ismlar[0] +"bugun choyxona bormi ?" )
