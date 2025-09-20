@@ -42,15 +42,28 @@ z_shaxs = ['Ilon Mask ', ' Bill Gets', ' Crishtiono Ranaldo' ]
 #
 # print("\nkelgan mehmonlar: ",mehmon)
 # print("\nmen tarixiy shaxslardan " + t_shaxs.pop(1)+ "bilan" , "\nzamonaviy shaxslardan" + z_shaxs.pop(1) + "bilan"  "suhbatlashgan bular edim")
-ismlar=["Shahzod","Islom","Elbek"]
-print("Salom "+ismlar[0] + " bugun choyxonaga yigilamizmi")
-print("Salom "+ismlar[1] + " bugun choyxonaga yigilamizmi")
-print("Salom "+ismlar[2] + " bugun choyxonaga yigilamizmi")
-sonlar=[12,-21,12.4,21.0]
-print(sonlar[0]-sonlar[1])
-print(sonlar[2]-sonlar[1])
-print(sonlar[0]*sonlar[1])
-print(sonlar[0]//sonlar[1])
-
-
+# ismlar=["Shahzod","Islom","Elbek"]
+# print("Salom "+ismlar[0] + " bugun choyxonaga yigilamizmi")
+# print("Salom "+ismlar[1] + " bugun choyxonaga yigilamizmi")
+# print("Salom "+ismlar[2] + " bugun choyxonaga yigilamizmi")
+# sonlar=[12,-21,12.4,21.0]
+# print(sonlar[0]-sonlar[1])
+# print(sonlar[2]-sonlar[1])
+# print(sonlar[0]*sonlar[1])
+# print(sonlar[0]//sonlar[1])
+son = int(input("istalgan son kiriting\n>>>"))
+kub = son**3
+print(kub)
+kvadrat = son**2
+print(kvadrat)
+yil = int(input("tug'ilgan yilingiz kiriting"))
+yosh = 2025-yil
+print(yosh)
+a= int(input("biron bir son kiriting"))
+b= int(input("istalgan son bering"))
+yigindi=a+b
+ayirma=a-b
+kopaytma=a*b
+bulinma=a//b
+print(yigindi,ayirma,kopaytma,bulinma)
 
