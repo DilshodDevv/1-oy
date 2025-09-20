@@ -39,5 +39,38 @@ MUALLIF: OCHILOV DILSHOD
 # print(taomlar)
 # print(nonushta)
 #
-ismlar=['Shahzod ,Burhon ,Diyor ']
-print("salom" + ismlar[0] +"bugun choyxona bormi ?" )
+# ismlar=['Shahzod ,Burhon ,Diyor ']
+# print("salom" + ismlar[0] +"bugun choyxona bormi ?" )
+ismlar = ["elbek","islom ","shahzod "]
+print("salom "+ismlar[0], ", bugun choyxona bormi?" +ismlar[1] ," choyxonaga boramizmi" " nimaga limsan ",ismlar[2])
+sonlar = [12,23,34,-34,3.5]
+sonlar[0]= sonlar[0]+sonlar[-1]
+sonlar [1]=sonlar[0]+2
+sonlar[4]=sonlar[1]*sonlar[-2]
+del sonlar[3]
+print(sonlar)
+del sonlar[0]
+print(sonlar)
+t_shaxs=["Temur","al-Xorazmiy","Navoiy"]
+z_shaxs=["Mask","tramp","shavkat"]
+print(f"men zamonaviy shaxslardan  {z_shaxs.pop(1)},tarixiy shaxslardan ,{t_shaxs.pop(0)}")
+frends=[]
+frends.append("islom")
+frends.append("shahzod")
+frends.append("elbek")
+frends.append("sardor")
+frends.append("asilbek")
+print(frends)
+frends.remove("elbek")
+frends.remove("asilbek")
+print(frends)
+frends.insert(0,"diyor")
+frends.insert(2,"temur")
+frends.insert(-1,"shuh")
+print(frends)
+mehmonlarr =[]
+mehmonlarr.append(frends.pop(0))
+mehmonlarr.append(frends.pop(1))
+mehmonlarr.append(frends.pop(3))
+print("\n kelgan mehmoonlar", mehmonlarr)
+
