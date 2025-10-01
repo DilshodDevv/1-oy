@@ -47,4 +47,39 @@ MUALLIF:DILSHOD OCHILOV
 #     print("musbat son kiriting")
 # else:
 #     print(0)
+cars =["toyota ","mazda ", "hyundai ","gm ","kia"]
+for car in cars :
+    if car == "kia":
+        print(car.upper())
+    else:
+        print(car.title())
+for car in cars :
+    if car!= "kia":
+        print(car.title())
+    else:
+        print(car.upper())
+login = input("\n>>>")
+print(f"iltimos loginingizni kiriting {login}")
+if login=="admin":
+    print("Xush kelibsiz, admin .foydalanuvchilar ruyhatini kurasizmi?")
+else:
+    print(f"Xush kelibsiz {login}")
+a = float(input("iltimos birinchi sonni kiriting\n>>>"))
+b = float(input("iltimos ikkinchi sonni kiriting\n>>>"))
+if a==b:
+    print("ikkisi teng")
+elif a>b:
+    print("a katta b dan")
+else:
+    print("a b dan kichkina")
+a= int(input("istalgan sonni kiriting\n>>>"))
+if a<0:
+    print("son manfiy")
+else:
+    print("son musbat")
+son=int(input("son kiriting"))
+if son<0:
+    print("musbat son kiriting")
+else:
+    print(f"ildizi{(son)**(1/2)}")
 
